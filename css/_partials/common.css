@@ -1,0 +1,37 @@
+/* VARIABLES */
+
+header {
+    background-color: var(--main-color);
+}
+
+main section:nth-child(odd) {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.ts-img-avatar  {
+    width: 230px;
+}
+
+
+.st-star-separator::before,.st-star-separator::after{
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    width: 15%;
+    background-color: currentColor;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.ts-button-color {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--main-color-light);
+}
+
+.ts-bg-color-main {
+    background-color: var(--main-color);
+}
